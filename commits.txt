@@ -1,0 +1,17 @@
+commit 36540192f19fbfdfdc63a6caa4307631372b4f8f
+Author: dtrueuqe <dtrueuqe.oficial@gmail.com>
+Date:   Thu Mar 14 22:07:35 2019 -0300
+
+    Se agregaron las carpetas css y js con sus respectivos archivos de bootstrap
+
+commit 1d15c1073c4fb951c637700fb272f64a821ce2c6
+Author: dtrueuqe <dtrueuqe.oficial@gmail.com>
+Date:   Thu Mar 14 22:05:27 2019 -0300
+
+    Se agregó el mensaje de bienvenida a la página
+
+commit 4324c827db99c956506a41cafea93e8606f3266b
+Author: dtrueuqe <dtrueuqe.oficial@gmail.com>
+Date:   Thu Mar 14 21:56:11 2019 -0300
+
+    Iniciamos
