@@ -13,9 +13,55 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
-<body class="font-family: 'Open Sans', sans-serif; bg-success">
-	<h3>Bienvenidos</h3>
-	<h4>Para borrar con el último commit</h4>
+<body class="font-family: 'Open Sans', sans-serif; bg-secondary">
+	      <nav class="navbar navbar-dark bg-success navbar-expand-md">
+        <div class="container-fluid">
+          <a class="navbar-brand" href=""><img src="images/LogoFinal.png" class="img-fluid" style="width: 200px;"></a>
+            <div>
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#buscador" aria-controls="buscador" arial-expanded="false" arial-label="desplegar menú navegacion">
+                <span>
+                  <img src="images/search_menu.png" class="img-fluid py-1 text-white" width="22">
+                </span>
+              </button>
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal, multi-collapse" aria-controls="menu-principal" arial-expanded="false" arial-label="desplegar menú navegacion"><span class="navbar-toggler-icon"></span></button>
+            </div>
+          <div class="collapse navbar-collapse" id="buscador">
+            <!--<ul class="navbar-nav align-items-center">
+              <li class="nav-item border">-->
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-light" type="button">Buscar</button>
+                    </div>
+                  </div>
+            <!--</ul>-->
+          </div>
+          <div class="collapse navbar-collapse" id="menu-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active text-md-center p-0 m-0">
+                  <a href="" class="nav-link d-flex d-md-block">
+                    <i class="material-icons d-lg-block">person</i><p class="ml-1 m-md-0 p-0 d-inline d-md-block">Inicio</p>
+                  </a>
+              </li>
+              <li class="nav-item active text-md-center p-0 m-0">
+                <a href="" class="nav-link d-flex d-md-block">
+                   <i class="material-icons d-lg-block">person_add</i><p class="ml-1 m-md-0 p-0 d-inline d-md-block">Registrarse</p>
+                </a>
+              </li>
+              <li class="nav-item active text-md-center p-0 m-0">
+                <a href="" class="nav-link d-flex d-md-block">
+                  <i class="material-icons d-lg-block">email</i><p class="ml-1 m-md-0 p-0 d-inline d-md-block">Contacto</p>
+                </a>
+              </li>
+              <li class="nav-item active text-md-center p-0 m-0">
+                <a href="" class="nav-link d-flex d-md-block">
+                  <i class="material-icons d-lg-block">help</i><p class="ml-1 m-md-0 p-0 d-inline d-md-block">Ayuda</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 	<script src="js/jquery-3.3.1.min.js" ></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
